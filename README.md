@@ -13,3 +13,7 @@ text as a row. When table row fulled with text it goes below line. If you want t
 '\n' escape character. 
 
 Image is defined as base 64. you can convert images to base64 easily with quick research on google. The resolution of the image is 960-362 px(not sure but close to this numbers)
+
+If you want to download this pdf inside your code
+
+use: pdfMake.createPdf(dd).download("pdfName.pdf"); inside generatePdf method.
