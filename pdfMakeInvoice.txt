@@ -1,5 +1,6 @@
 var dd = {
     pageSize:'a4',
+     watermark: {text: 'TASLAK', color: 'grey', opacity: 0.3, bold: true, italics: false},
     content: [
     {
         
